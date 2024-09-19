@@ -96,7 +96,7 @@ python main.py
 
 
 ## Notice
-Feel free to cite us if you like mABC, and you can contact me by knediny@gmail.com.
+Feel free to cite us if you like mABC, and you can contact me by zwpride@buaa.edu.cn.
 
 ```
 @article{zhang2024mabc,
