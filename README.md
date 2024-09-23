@@ -79,8 +79,7 @@ export OPENAI_API_KEY="sk-xxx"
 3. run script follow your task, example:
 
 ```
-cd main
-python main.py
+python main/main.py
 ```
 
 ### Driven by Other Version
