@@ -1,0 +1,173 @@
+// Service Topology
+digraph {
+	ts_config_service [label="ts-config-service" color=red]
+	ts_station_service [label="ts-station-service" color=red]
+	ts_travel_plan_service [label="ts-travel-plan-service" color=red]
+	ts_admin_route_service [label="ts-admin-route-service" color=red]
+	ts_travel_service [label="ts-travel-service" color=red]
+	ts_admin_basic_info_service [label="ts-admin-basic-info-service" color=red]
+	ts_travel2_service [label="ts-travel2-service" color=red]
+	ts_auth_service [label="ts-auth-service" color=red]
+	ts_inside_payment_service [label="ts-inside-payment-service" color=red]
+	ts_train_service [label="ts-train-service" color=red]
+	ts_food_service [label="ts-food-service" color=red]
+	ts_station_food_service [label="ts-station-food-service" color=red]
+	ts_route_service [label="ts-route-service" color=red]
+	ts_security_service [label="ts-security-service" color=red]
+	ts_wait_order_service [label="ts-wait-order-service" color=red]
+	ts_gateway_service [label="ts-gateway-service" color=red]
+	ts_rebook_service [label="ts-rebook-service" color=red]
+	ts_verification_code_service [label="ts-verification-code-service" color=red]
+	ts_assurance_service [label="ts-assurance-service" color=red]
+	ts_admin_user_service [label="ts-admin-user-service" color=red]
+	ts_consign_price_service [label="ts-consign-price-service" color=red]
+	ts_order_other_service [label="ts-order-other-service" color=red]
+	ts_payment_service [label="ts-payment-service" color=red]
+	ts_order_service [label="ts-order-service" color=red]
+	ts_admin_travel_service [label="ts-admin-travel-service" color=red]
+	ts_admin_order_service [label="ts-admin-order-service" color=red]
+	ts_user_service [label="ts-user-service" color=red]
+	ts_train_food_service [label="ts-train-food-service" color=red]
+	ts_consign_service [label="ts-consign-service" color=red]
+	ts_contacts_service [label="ts-contacts-service" color=red]
+	ts_delivery_service [label="ts-delivery-service" color=red]
+	ts_preserve_other_service [label="ts-preserve-other-service" color=red]
+	ts_food_delivery_service [label="ts-food-delivery-service" color=red]
+	ts_preserve_service [label="ts-preserve-service" color=red]
+	ts_execute_service [label="ts-execute-service" color=red]
+	ts_cancel_service [label="ts-cancel-service" color=red]
+	ts_price_service [label="ts-price-service" color=red]
+	ts_notification_service [label="ts-notification-service" color=red]
+	ts_order_service [label="ts-order-service"]
+	ts_execute_service -> ts_order_service
+	ts_order_other_service [label="ts-order-other-service"]
+	ts_execute_service -> ts_order_other_service
+	ts_user_service [label="ts-user-service"]
+	ts_preserve_other_service -> ts_user_service
+	ts_security_service [label="ts-security-service"]
+	ts_preserve_other_service -> ts_security_service
+	ts_contacts_service [label="ts-contacts-service"]
+	ts_preserve_other_service -> ts_contacts_service
+	ts_assurance_service [label="ts-assurance-service"]
+	ts_preserve_other_service -> ts_assurance_service
+	ts_travel2_service [label="ts-travel2-service"]
+	ts_preserve_other_service -> ts_travel2_service
+	ts_seat_service [label="ts-seat-service"]
+	ts_preserve_other_service -> ts_seat_service
+	ts_order_other_service [label="ts-order-other-service"]
+	ts_preserve_other_service -> ts_order_other_service
+	ts_basic_service [label="ts-basic-service"]
+	ts_preserve_other_service -> ts_basic_service
+	ts_order_service [label="ts-order-service"]
+	ts_security_service -> ts_order_service
+	ts_order_other_service [label="ts-order-other-service"]
+	ts_security_service -> ts_order_other_service
+	ts_basic_service [label="ts-basic-service"]
+	ts_travel2_service -> ts_basic_service
+	ts_route_service [label="ts-route-service"]
+	ts_travel2_service -> ts_route_service
+	ts_seat_service [label="ts-seat-service"]
+	ts_travel2_service -> ts_seat_service
+	ts_station_service [label="ts-station-service"]
+	ts_basic_service -> ts_station_service
+	ts_train_service [label="ts-train-service"]
+	ts_basic_service -> ts_train_service
+	ts_price_service [label="ts-price-service"]
+	ts_basic_service -> ts_price_service
+	ts_route_service [label="ts-route-service"]
+	ts_basic_service -> ts_route_service
+	ts_order_service [label="ts-order-service"]
+	ts_seat_service -> ts_order_service
+	ts_order_other_service [label="ts-order-other-service"]
+	ts_seat_service -> ts_order_other_service
+	ts_config_service [label="ts-config-service"]
+	ts_seat_service -> ts_config_service
+	ts_user_service [label="ts-user-service"]
+	ts_admin_user_service -> ts_user_service
+	ts_route_plan_service [label="ts-route-plan-service"]
+	ts_travel_plan_service -> ts_route_plan_service
+	ts_train_service [label="ts-train-service"]
+	ts_travel_plan_service -> ts_train_service
+	ts_seat_service [label="ts-seat-service"]
+	ts_travel_plan_service -> ts_seat_service
+	ts_travel_service [label="ts-travel-service"]
+	ts_route_plan_service -> ts_travel_service
+	ts_travel2_service [label="ts-travel2-service"]
+	ts_route_plan_service -> ts_travel2_service
+	ts_route_service [label="ts-route-service"]
+	ts_route_plan_service -> ts_route_service
+	ts_basic_service [label="ts-basic-service"]
+	ts_travel_service -> ts_basic_service
+	ts_route_service [label="ts-route-service"]
+	ts_travel_service -> ts_route_service
+	ts_seat_service [label="ts-seat-service"]
+	ts_travel_service -> ts_seat_service
+	ts_order_service [label="ts-order-service"]
+	ts_preserve_service -> ts_order_service
+	ts_user_service [label="ts-user-service"]
+	ts_preserve_service -> ts_user_service
+	ts_travel_service [label="ts-travel-service"]
+	ts_preserve_service -> ts_travel_service
+	ts_security_service [label="ts-security-service"]
+	ts_preserve_service -> ts_security_service
+	ts_contacts_service [label="ts-contacts-service"]
+	ts_preserve_service -> ts_contacts_service
+	ts_assurance_service [label="ts-assurance-service"]
+	ts_preserve_service -> ts_assurance_service
+	ts_seat_service [label="ts-seat-service"]
+	ts_preserve_service -> ts_seat_service
+	ts_basic_service [label="ts-basic-service"]
+	ts_preserve_service -> ts_basic_service
+	ts_order_service [label="ts-order-service"]
+	ts_rebook_service -> ts_order_service
+	ts_travel2_service [label="ts-travel2-service"]
+	ts_rebook_service -> ts_travel2_service
+	ts_seat_service [label="ts-seat-service"]
+	ts_rebook_service -> ts_seat_service
+	ts_train_service [label="ts-train-service"]
+	ts_rebook_service -> ts_train_service
+	ts_order_other_service [label="ts-order-other-service"]
+	ts_rebook_service -> ts_order_other_service
+	ts_inside_payment_service [label="ts-inside-payment-service"]
+	ts_rebook_service -> ts_inside_payment_service
+	ts_route_service [label="ts-route-service"]
+	ts_rebook_service -> ts_route_service
+	ts_consign_price_service [label="ts-consign-price-service"]
+	ts_consign_service -> ts_consign_price_service
+	ts_verification_code_service [label="ts-verification-code-service"]
+	ts_auth_service -> ts_verification_code_service
+	ts_order_service [label="ts-order-service"]
+	ts_inside_payment_service -> ts_order_service
+	ts_order_other_service [label="ts-order-other-service"]
+	ts_inside_payment_service -> ts_order_other_service
+	ts_payment_service [label="ts-payment-service"]
+	ts_inside_payment_service -> ts_payment_service
+	ts_station_service [label="ts-station-service"]
+	ts_admin_route_service -> ts_station_service
+	ts_route_service [label="ts-route-service"]
+	ts_admin_route_service -> ts_route_service
+	ts_order_service [label="ts-order-service"]
+	ts_cancel_service -> ts_order_service
+	ts_inside_payment_service [label="ts-inside-payment-service"]
+	ts_cancel_service -> ts_inside_payment_service
+	ts_user_service [label="ts-user-service"]
+	ts_cancel_service -> ts_user_service
+	ts_order_other_service [label="ts-order-other-service"]
+	ts_cancel_service -> ts_order_other_service
+	ts_station_service [label="ts-station-service"]
+	ts_admin_travel_service -> ts_station_service
+	ts_travel_service [label="ts-travel-service"]
+	ts_admin_travel_service -> ts_travel_service
+	ts_travel2_service [label="ts-travel2-service"]
+	ts_admin_travel_service -> ts_travel2_service
+	ts_train_service [label="ts-train-service"]
+	ts_admin_travel_service -> ts_train_service
+	ts_route_service [label="ts-route-service"]
+	ts_admin_travel_service -> ts_route_service
+	ts_order_service [label="ts-order-service"]
+	ts_admin_order_service -> ts_order_service
+	ts_order_other_service [label="ts-order-other-service"]
+	ts_admin_order_service -> ts_order_other_service
+	ts_station_service [label="ts-station-service"]
+	ts_admin_basic_info_service -> ts_station_service
+}

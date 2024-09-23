@@ -3,7 +3,7 @@
 </div>
 
 ## Notice
-🎉🎉 Our paper has been accepted by EMNLP 2024 Finding! We will release more data in this repository as soon as possible. 
+We will release more data in this repository as soon as possible. Here is init version code and wait for our data to be updated after passing policy review.
 
 ## News
 Our paper is accepted by EMNLP 2024 (Findings)! 🎉🎉
@@ -13,7 +13,16 @@ The escalating complexity of micro-services architecture in cloud-native technol
 
 
 ## Overview
-
+<center>
+    <img style="border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
+    src="./assets/all.jpg">
+    <br>
+    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 2px;"></div>
+</center>
 <!-- ![img](./assets/overview.svg)
 ![img](./assets/vote.svg)
 ![img](./assets/workflow.svg) -->
@@ -51,32 +60,9 @@ The escalating complexity of micro-services architecture in cloud-native technol
     padding: 2px;">Vote process on Agent Chain</div>
 </center>
 
-
-
-## Result
-<center>
-    <img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="./assets/result.png">
-    <br>
-    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
-    display: inline-block;
-    color: #999;
-    padding: 2px;">Main Results</div>
-</center>
-
-<center>
-    <img style="border-radius: 0.3125em;
-    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
-    src="./assets/component.png">
-    <br>
-    <div style="color:orange; border-bottom: 1px solid #d9d9d9;
-    display: inline-block;
-    color: #999;
-    padding: 2px;">Component Impact Evaluation</div>
-</center>
-
 ## Enviornment and Running
+
+### Driven by OpenAI Version
 
 1. python enviornment:
 
@@ -96,6 +82,11 @@ export OPENAI_API_KEY="sk-xxx"
 cd main
 python main.py
 ```
+
+### Driven by Other Version
+
+Try to replace `/Users/knediny/Desktop/mABC/utils/llm.py`.
+
 
 
 ## Notice
